@@ -4,6 +4,7 @@
 
 ;; sloppy
 ;; coolexp@qq.com
+;; for work computer
 (setq x-select-enable-clipboard t)
 (require 'linum)
 (global-linum-mode 1)
