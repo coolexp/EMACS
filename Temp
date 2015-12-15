@@ -1,0 +1,2 @@
+sh-keygen -t rsa -C “caozhuhua@gmail.com”
+ssh-add Github
