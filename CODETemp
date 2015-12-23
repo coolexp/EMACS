@@ -1,0 +1,12 @@
+NSProcessInfo* processInfo = [NSProcessInfo processInfo];
+NSArray* arr = [processInfo arguments];
+NSLog(@"运行该程序的参数：%@",arr);
+NSLog(@"进程标识符：%d",[processInfo processIdentifier]);
+NSLog(@"进程名：%@",[processInfo processName]);
+NSLog(@"进程所在系统的主机名：%@",[processInfo hostName]);
+NSLog(@"操作系统：%lu",(unsigned long)[processInfo operatingSystem]);
+NSLog(@"操作系统名：%@",[processInfo operatingSystemName]);
+NSLog(@"操作系统版本：%@",[processInfo operatingSystemVersionString]);
+NSLog(@"物理内存%llu",[processInfo physicalMemory]);
+NSLog(@"处理器数量%lu",(unsigned long)[processInfo processorCount]);
+NSLog(@"系统运行时间%f hour",[processInfo systemUptime]/3600);
