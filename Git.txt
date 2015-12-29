@@ -1,35 +1,35 @@
-ssh-keygen -t rsa -C ¡°caozhuhua@gmail.com¡±
+ssh-keygen -t rsa -C â€œcaozhuhua@gmail.comâ€
 ssh-add Github
 
-WindowsÉú³ÉGit ÃÜÔ¿ÎÄ¼ş:
+Windowsç”ŸæˆGit å¯†é’¥æ–‡ä»¶:
 
-1. °²×°git£¬´Ó³ÌĞòÄ¿Â¼´ò¿ª "Git Bash" 
-2. ¼üÈëÃüÁî£ºssh-keygen -t rsa -C "caozhuhua@gmail.com"
-  "caozhuhua@gmail.com"ÊÇgithubÕËºÅ
-3. ÌáĞÑÄãÊäÈëkeyµÄÃû³Æ£¬ÊäÈëÈçid_rsa
-4. ÔÚC:\Documents and Settings\Administrator\ÏÂ²úÉúÁ½¸öÎÄ¼ş£ºid_rsaºÍid_rsa.pub
-5. °Ñ4ÖĞÉú³ÉµÄÃÜÔ¿ÎÄ¼ş¸´ÖÆµ½C:\Documents and Settings\Administrator\.ssh\ Ä¿ Â¼ÏÂ¡£
-6. ÓÃ¼ÇÊÂ±¾´ò¿ªid_rsa.pubÎÄ¼ş£¬¸´ÖÆÄÚÈİ£¬ÔÚgithub.comµÄÍøÕ¾ÉÏµ½sshÃÜÔ¿¹ÜÀíÒ³Ãæ£¬Ìí¼ÓĞÂ¹«Ô¿£¬Ëæ±ãÈ¡¸öÃû×Ö£¬ÄÚÈİÕ³Ìù¸Õ²Å¸´ÖÆµÄÄÚÈİ¡£
-7. ^_^ OKÁË
+1. å®‰è£…gitï¼Œä»ç¨‹åºç›®å½•æ‰“å¼€ "Git Bash" 
+2. é”®å…¥å‘½ä»¤ï¼šssh-keygen -t rsa -C "caozhuhua@gmail.com"
+  "caozhuhua@gmail.com"æ˜¯githubè´¦å·
+3. æé†’ä½ è¾“å…¥keyçš„åç§°ï¼Œè¾“å…¥å¦‚id_rsa
+4. åœ¨C:\Documents and Settings\Administrator\ä¸‹äº§ç”Ÿä¸¤ä¸ªæ–‡ä»¶ï¼šid_rsaå’Œid_rsa.pub
+5. æŠŠ4ä¸­ç”Ÿæˆçš„å¯†é’¥æ–‡ä»¶å¤åˆ¶åˆ°C:\Documents and Settings\Administrator\.ssh\ ç›® å½•ä¸‹ã€‚
+6. ç”¨è®°äº‹æœ¬æ‰“å¼€id_rsa.pubæ–‡ä»¶ï¼Œå¤åˆ¶å†…å®¹ï¼Œåœ¨github.comçš„ç½‘ç«™ä¸Šåˆ°sshå¯†é’¥ç®¡ç†é¡µé¢ï¼Œæ·»åŠ æ–°å…¬é’¥ï¼Œéšä¾¿å–ä¸ªåå­—ï¼Œå†…å®¹ç²˜è´´åˆšæ‰å¤åˆ¶çš„å†…å®¹ã€‚
+7. ^_^ OKäº†
 
-ĞèÒª×¢Òâ²½Öè2ÖĞ²úÉúµÄÃÜÔ¿ÎÄ¼şÔÚµ±Ç°ÓÃ»§µÄ¸ùÄ¿Â¼£¬±ØĞë°ÑÕâÁ½¸öÎÄ¼ş·Åµ½µ±Ç°ÓÃ»§Ä¿Â¼µÄ¡°.ssh¡±Ä¿Â¼ÏÂ²ÅÄÜÉúĞ§¡£
-ÔÚwindowsÖĞÖ»ÄÜÔÚÃüÁîĞĞÏÂÊäÈë´´½¨"."¿ªÍ·µÄÎÄ¼ş¼Ğ¡£ÃüÁîÎª mkdir .ssh
+éœ€è¦æ³¨æ„æ­¥éª¤2ä¸­äº§ç”Ÿçš„å¯†é’¥æ–‡ä»¶åœ¨å½“å‰ç”¨æˆ·çš„æ ¹ç›®å½•ï¼Œå¿…é¡»æŠŠè¿™ä¸¤ä¸ªæ–‡ä»¶æ”¾åˆ°å½“å‰ç”¨æˆ·ç›®å½•çš„â€œ.sshâ€ç›®å½•ä¸‹æ‰èƒ½ç”Ÿæ•ˆã€‚
+åœ¨windowsä¸­åªèƒ½åœ¨å‘½ä»¤è¡Œä¸‹è¾“å…¥åˆ›å»º"."å¼€å¤´çš„æ–‡ä»¶å¤¹ã€‚å‘½ä»¤ä¸º mkdir .ssh
 
-Ê¹ÓÃGit:
+ä½¿ç”¨Git:
 
-Ìí¼ÓÎÄ¼ş
+æ·»åŠ æ–‡ä»¶
 git add test.txt
 
-Ìá½»:
-git commit -m "×¢ÊÍ"
+æäº¤:
+git commit -m "æ³¨é‡Š"
 
-ÉÏ´«
+ä¸Šä¼ 
 git push
 
-È¡»Ø±¾µØ(1):
-git pull  (»á×Ô¶¯Merge)»òÕßgit pull origin master
+å–å›æœ¬åœ°(1):
+git pull  (ä¼šè‡ªåŠ¨Merge)æˆ–è€…git pull origin master
 
-È¡»Ø±¾µØ(2) (²»»á×Ô¶¯Merge)
+å–å›æœ¬åœ°(2) (ä¸ä¼šè‡ªåŠ¨Merge)
 git fetch origin master
 git log -p master..origin/master
 git merge origin/master
